@@ -1,0 +1,9 @@
+@use '../util/' as u;
+
+.home {
+  &__latestBlogPosts {
+    background-color: var(--boxitem-bg-color);
+    border-radius: 30px;
+    padding: 30px;
+  }
+}

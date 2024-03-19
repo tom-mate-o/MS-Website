@@ -1,0 +1,28 @@
+@use '../util/' as u;
+
+.navbar {
+  background-color: var(--navbar-bg-color);
+  height: 84px;
+  border-radius: 0 0 30px 30px;
+
+  &__items {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__title {
+    display: none;
+  }
+
+  &__logo {
+    margin: 0;
+  }
+
+  &__item {
+    text-transform: uppercase;
+  }
+
+  &__items--right {
+    display: none;
+  }
+}

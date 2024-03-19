@@ -41,12 +41,14 @@ export default function Home() {
       <main>
         <HomepageFeatures />
 
-        {blogPosts.map((post, index) => (
-          <div key={index}>
-            <h2>{post.title[0]}</h2>
-            <p>{post.description[0]}</p>
-          </div>
-        ))}
+        <div className="home__latestBlogPosts">
+          {blogPosts.map((post, index) => (
+            <div className="" key={index}>
+              <h2>{post.title[0]}</h2>
+              <p>{post.description[0]}</p>
+            </div>
+          ))}
+        </div>
       </main>
     </Layout>
   );

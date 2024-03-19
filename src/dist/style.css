@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -14,8 +15,21 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--main-bg);
-  font-family: "Inria Serif", serif;
-  overflow-x: hidden;
+  font-family: "Source Sans 3", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+#__docusaurus {
+  width: 100%;
+}
+@media (min-width: 43.75em) {
+  #__docusaurus {
+    width: 80%;
+    max-width: 1200px;
+  }
 }
 
 :root {
@@ -31,14 +45,54 @@ body {
 }
 
 [data-theme=dark] {
-  --ifm-color-primary: red;
-  --ifm-color-primary-dark: red;
+  --ifm-color-primary: #aabbe3;
+  --ifm-color-primary-dark: rgb(24, 51, 102);
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-background-color: #1d2029 !important ;
+  --navbar-bg-color: #2f3340;
+  --boxitem-bg-color: #444444;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 1.5625rem;
+  font-size: clamp(1.5625rem, 1.45rem + 0.47vw, 1.875rem);
+  line-height: 1;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-size: clamp(1.25rem, 1.14rem + 0.47vw, 1.875rem);
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-size: clamp(1.25rem, 1.14rem + 0.47vw, 1.875rem);
+}
+
+p {
+  margin: 0;
+  font-size: 0.875rem;
+  font-size: clamp(0.875rem, 0.84rem + 0.19vw, 1rem);
+}
+
+a,
+a:visited,
+a:active {
+  line-height: auto;
+  text-decoration: none;
 }
 
 .wrapper {
@@ -70,4 +124,43 @@ body {
   .wrapper__content {
     width: 100%;
   }
+}
+
+.navbar {
+  background-color: var(--navbar-bg-color);
+  height: 84px;
+  border-radius: 0 0 30px 30px;
+}
+.navbar__items {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar__title {
+  display: none;
+}
+.navbar__logo {
+  margin: 0;
+}
+.navbar__item {
+  text-transform: uppercase;
+}
+.navbar__items--right {
+  display: none;
+}
+
+.hero {
+  background-color: green;
+  margin-block-start: 2.5rem;
+  border-radius: 30px;
+}
+
+.home__latestBlogPosts {
+  background-color: var(--boxitem-bg-color);
+  border-radius: 30px;
+  padding: 30px;
+}
+
+footer {
+  margin-block-start: 2.5rem;
+  border-radius: 30px 30px 0 0;
 }/*# sourceMappingURL=style.css.map */

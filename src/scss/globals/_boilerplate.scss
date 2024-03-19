@@ -16,5 +16,17 @@ body {
   padding: 0;
   background-color: var(--main-bg);
   font-family: u.$font;
-  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+#__docusaurus {
+  width: 100%;
+
+  @include u.breakpoint('medium') {
+    width: 80%;
+    max-width: 1200px;
+  }
 }
