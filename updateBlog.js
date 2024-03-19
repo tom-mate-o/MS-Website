@@ -20,4 +20,4 @@ async function updateBlog() {
   }
 }
 
-updateBlog();
+setTimeout(updateBlog, 1 * 60 * 1000);

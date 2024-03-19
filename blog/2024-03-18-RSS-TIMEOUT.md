@@ -1,6 +1,6 @@
 ---
-slug: rss-testing
-title: RSS TESTING
+slug: rss-timeout
+title: RSS TIMEOUT
 authors:
   name: Tom Kra
   title: Docusaurus Core Team
