@@ -7,7 +7,12 @@
 
   &__items {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+
+    @include u.breakpoint('medium') {
+      display: flex;
+      justify-content: space-around;
+    }
   }
 
   &__title {

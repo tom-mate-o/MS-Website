@@ -133,7 +133,13 @@ a:active {
 }
 .navbar__items {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+}
+@media (min-width: 43.75em) {
+  .navbar__items {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 .navbar__title {
   display: none;
@@ -149,11 +155,33 @@ a:active {
 }
 
 .hero {
-  background-color: green;
-  margin-block-start: 2.5rem;
+  background-color: rgb(53, 79, 128);
+  margin-block: 2.5rem;
   border-radius: 30px;
 }
 
+.home__container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px 40px;
+}
+.home__smallboxesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.home__boxitem {
+  background-color: var(--boxitem-bg-color);
+  border-radius: 30px;
+  padding: 30px;
+}
+.home__boxitem.small {
+  flex: 1;
+}
+.home__boxitem.fullwidth {
+  width: 100%;
+}
 .home__latestBlogPosts {
   background-color: var(--boxitem-bg-color);
   border-radius: 30px;

@@ -1,7 +1,7 @@
 @use '../util/' as u;
 
 .hero {
-  background-color: green;
-  margin-block-start: u.rem(40);
+  background-color: rgb(53, 79, 128);
+  margin-block: u.rem(40);
   border-radius: 30px;
 }

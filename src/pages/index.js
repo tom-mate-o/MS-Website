@@ -14,17 +14,10 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          <h1>{siteConfig.title}</h1>
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
+        <div className={styles.buttons}></div>
       </div>
     </header>
   );
@@ -39,15 +32,41 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
-
-        <div className="home__latestBlogPosts">
-          {blogPosts.map((post, index) => (
-            <div className="" key={index}>
-              <h2>{post.title[0]}</h2>
-              <p>{post.description[0]}</p>
+        <div className="home__container">
+          <div className="home__smallboxesContainer">
+            <div className="home__boxitem small">
+              <h1>Boxitem 1</h1>
             </div>
-          ))}
+
+            <div className="home__boxitem small">
+              <h1>Boxitem 2</h1>
+            </div>
+          </div>
+
+          <div className="home__boxitem fullwidth">
+            <h1>Boxitem 3</h1>
+          </div>
+
+          <div className="home__latestBlogPosts">
+            {blogPosts.map((post, index) => (
+              <div className="" key={index}>
+                <p>
+                  {new Date(post.pubDate).toLocaleDateString('en', {
+                    year: 'numeric',
+                    month: 'short',
+                    day: 'numeric',
+                  })}
+                </p>
+                <h2>{post.title[0]}</h2>
+
+                <p>{post.description[0]}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="home__boxitem fullwidth">
+            <h1>Boxitem 4</h1>
+          </div>
         </div>
       </main>
     </Layout>
