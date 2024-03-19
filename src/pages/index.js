@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -31,6 +32,17 @@ function HomepageHeader() {
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    fetch('/blogPosts.json')
+      .then((response) => {
+        console.log(response);
+        return response.json();
+      })
+      .then((data) => setPosts(data));
+  }, []);
+
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -39,6 +51,11 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <div>
+          {posts.map((post, index) => (
+            <p key={index}>{post.title[0]}</p>
+          ))}
+        </div>
       </main>
     </Layout>
   );

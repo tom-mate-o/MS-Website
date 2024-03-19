@@ -1,0 +1,30 @@
+@use '../util/' as u;
+
+.wrapper {
+  width: min(100% - u.rem(48), u.rem(800));
+  margin-inline: auto; // center the grid
+  padding-block-start: u.rem(15);
+
+  @include u.breakpoint-down(small) {
+    width: 100%;
+  }
+
+  @include u.breakpoint(medium) {
+    width: min(100% - u.rem(48), u.rem(800));
+    padding-block-start: u.rem(60);
+  }
+
+  &__content {
+    width: min(100% - u.rem(48), u.rem(800));
+    margin-inline: auto;
+    padding-block-start: u.rem(20);
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 130px; /* Höhe des Footers */
+    box-sizing: border-box;
+
+    @include u.breakpoint-down(small) {
+      width: 100%;
+    }
+  }
+}

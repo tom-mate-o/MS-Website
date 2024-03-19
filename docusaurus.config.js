@@ -39,6 +39,9 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        theme: {
+          customCss: ['./src/dist/style.css'],
+        },
         docs: {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
@@ -83,12 +86,13 @@ const config = {
           { to: '/markdown-page', label: 'Markdown-Page', position: 'left' },
           { to: '/page2', label: 'Page 2', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/MiriamSterl',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
+
       footer: {
         style: 'dark',
         links: [
@@ -127,16 +131,21 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/MiriamSterl',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Miriam Sterl`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
     }),
 };
