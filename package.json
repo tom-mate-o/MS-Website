@@ -5,9 +5,8 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build-and-update": "docusaurus build && npm run update-blog && npm run build",
+    "build": "npm run update-blog && docusaurus build",
     "update-blog": "node updateBlog.js",
-    "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
