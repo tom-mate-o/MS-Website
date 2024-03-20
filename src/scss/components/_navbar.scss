@@ -7,10 +7,20 @@
 
   &__items {
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+
+    justify-content: space-around;
+
+    @include u.breakpoint('custom') {
+      display: flex;
+      flex-direction: row;
+
+      justify-content: space-around;
+    }
 
     @include u.breakpoint('medium') {
       display: flex;
+      flex-direction: row;
       justify-content: space-around;
     }
   }
@@ -21,6 +31,40 @@
 
   &__logo {
     margin: 0;
+    order: 2;
+    height: 60px;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: -2px;
+      right: -2px;
+      bottom: -2px;
+      left: -2px;
+      background: linear-gradient(
+        50deg,
+        #430a15,
+        #ac2b24,
+        #ffffff,
+        #1f4cb5,
+        #1a204b
+      );
+      z-index: -1;
+      border-radius: 50%; // Hinzugefügt
+    }
+
+    img {
+      width: 60px;
+      height: 60px;
+      position: relative;
+      z-index: 1;
+      border-radius: 50%; // Hinzugefügt
+    }
+  }
+
+  &__toggle {
+    order: 1;
   }
 
   &__item {
