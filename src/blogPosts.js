@@ -1,6 +1,30 @@
 export const blogPosts = [
   {
     "title": [
+      "Miriam Post"
+    ],
+    "link": [
+      "https://your-docusaurus-site.example.com/blog/miriam-post"
+    ],
+    "guid": [
+      "https://your-docusaurus-site.example.com/blog/miriam-post"
+    ],
+    "pubDate": [
+      "Wed, 20 Mar 2024 00:00:00 GMT"
+    ],
+    "description": [
+      "hier ein kurzes update"
+    ],
+    "content:encoded": [
+      "<p>#Großer Titel\nhier ein kurzes update</p>"
+    ],
+    "category": [
+      "hola",
+      "docusaurus"
+    ]
+  },
+  {
+    "title": [
       "RSS TIMEOUT"
     ],
     "link": [

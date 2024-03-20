@@ -4,6 +4,7 @@
   background-color: var(--navbar-bg-color);
   height: 84px;
   border-radius: 0 0 30px 30px;
+  box-shadow: var(--boxitem-shadow);
 
   &__items {
     display: flex;
@@ -44,22 +45,22 @@
       left: -2px;
       background: linear-gradient(
         50deg,
-        #430a15,
-        #ac2b24,
-        #ffffff,
-        #1f4cb5,
-        #1a204b
+        #430a15 20%,
+        #ac2b24 30%,
+        #ffffff 50%,
+        #1f4cb5 70%,
+        #1a204b 80%
       );
-      z-index: -1;
-      border-radius: 50%; // Hinzugefügt
+      z-index: -2;
+      border-radius: 50%;
     }
 
     img {
       width: 60px;
       height: 60px;
       position: relative;
-      z-index: 1;
-      border-radius: 50%; // Hinzugefügt
+      z-index: -1;
+      border-radius: 50%;
     }
   }
 
@@ -71,7 +72,7 @@
     text-transform: uppercase;
   }
 
-  &__items--right {
-    display: none;
-  }
+  // &__items--right {
+  //   display: none;
+  // }
 }

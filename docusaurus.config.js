@@ -85,11 +85,6 @@ const config = {
           { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/markdown-page', label: 'Markdown-Page', position: 'left' },
           { to: '/page2', label: 'Page 2', position: 'left' },
-          {
-            href: 'https://github.com/MiriamSterl',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
 

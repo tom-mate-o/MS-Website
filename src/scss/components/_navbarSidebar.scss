@@ -2,4 +2,9 @@
 
 .navbar-sidebar {
   background-color: var(--navbar-bg-color);
+  overflow: hidden;
+
+  &__brand {
+    height: 80px;
+  }
 }

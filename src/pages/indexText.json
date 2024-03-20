@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "title1": {
+      "en": "Hi. I'm ",
+      "nl": "Hoi. Ik ben "
+    },
+    "title2": {
+      "en": ", Oceanographer.",
+      "nl": ", Oceanograaf."
+    },
+    "subtitle": {
+      "en": "Here is even some more text. And another cool sentence. Amazing.",
+      "nl": "Hier is wat meer tekst. En nog een coole zin. Geweldig."
+    }
+  },
+
+  "boxitem1": {
+    "title": {
+      "en": "Boxtitle One",
+      "nl": "Boxtitel Een"
+    },
+    "text": {
+      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum mi nec, ultrices ipsum. Donec sed posuere massa. Sed ut metus vel ligula elementum lacinia. Proin auctor dolor nec eros rutrum.",
+      "nl": "De klant is erg belangrijk, de klant wordt door de klant gevolgd. Er is geen pure feugiat, noch mijn vestibule, noch de basketbal zelf. Plaats tot die tijd de massa. Maar als angst- of ligula-element van de rok. De auteur van het artikel is niet de auteur van het boek."
+    }
+  },
+
+  "boxitem2": {
+    "title": {
+      "en": "Boxtitle Two",
+      "nl": "Boxtitel Twee"
+    },
+    "text": {
+      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum mi nec, ultrices ipsum. Donec sed posuere massa. Sed ut metus vel ligula elementum lacinia. Proin auctor dolor nec eros rutrum.",
+      "nl": "De klant is erg belangrijk, de klant wordt door de klant gevolgd. Er is geen pure feugiat, noch mijn vestibule, noch de basketbal zelf. Plaats tot die tijd de massa. Maar als angst- of ligula-element van de rok. De auteur van het artikel is niet de auteur van het boek."
+    }
+  },
+
+  "boxitem3": {
+    "title": {
+      "en": "Boxtitle Three",
+      "nl": "Boxtitel Drie"
+    },
+    "text": {
+      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum mi nec, ultrices ipsum. Donec sed posuere massa. Sed ut metus vel ligula elementum lacinia. Proin auctor dolor nec eros rutrum.",
+      "nl": "De klant is erg belangrijk, de klant wordt door de klant gevolgd. Er is geen pure feugiat, noch mijn vestibule, noch de basketbal zelf. Plaats tot die tijd de massa. Maar als angst- of ligula-element van de rok. De auteur van het artikel is niet de auteur van het boek."
+    }
+  },
+
+  "boxitem4": {
+    "title": {
+      "en": "Boxtitle Four",
+      "nl": "Boxtitel Veer"
+    },
+    "text": {
+      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum mi nec, ultrices ipsum. Donec sed posuere massa. Sed ut metus vel ligula elementum lacinia. Proin auctor dolor nec eros rutrum.",
+      "nl": "De klant is erg belangrijk, de klant wordt door de klant gevolgd. Er is geen pure feugiat, noch mijn vestibule, noch de basketbal zelf. Plaats tot die tijd de massa. Maar als angst- of ligula-element van de rok. De auteur van het artikel is niet de auteur van het boek."
+    }
+  }
+}
