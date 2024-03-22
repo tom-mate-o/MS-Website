@@ -11,7 +11,7 @@
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #aabbe3;
+  --ifm-color-primary: #8da9e1;
   --ifm-color-primary-dark: rgb(24, 51, 102);
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -21,8 +21,20 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 
   --ifm-background-color: #1d2029 !important ;
-  --navbar-bg-color: #2f3340;
-  --boxitem-bg-color: #444444;
+  --navbar-bg-color: #303846;
+  --boxitem-bg-color: #2f3340;
+  --footer-bg-color: #303846;
+  --button-bg-color: #1f4cb5;
+  --button-bg-color-hover: #ac2b24;
+  --button-text-color: #ffffff;
+  --color-bar: linear-gradient(
+    to right,
+    #430a15 20%,
+    #ac2b24 30%,
+    #ffffff 50%,
+    #1f4cb5 70%,
+    #1a204b 80%
+  );
   --boxitem-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2),
     0px 4px 4px 0px rgba(0, 0, 0, 0.2), 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
 }

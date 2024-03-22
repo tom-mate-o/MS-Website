@@ -9,6 +9,10 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import herobg from '../images/hero_bg.jpg';
 import miriam from '../images/miriam.jpg';
+import boximage1 from '../images/boximages/boximage1.jpg';
+import boximage2 from '../images/boximages/boximage2.jpg';
+import boximage3 from '../images/boximages/boximage3.jpg';
+import boximage4 from '../images/boximages/boximage4.jpg';
 
 import React, { useState } from 'react';
 
@@ -20,15 +24,14 @@ export function HomepageHeader({ language, toggleLanguage }) {
       <div className="hero__container">
         <div className="hero__text">
           <Heading as="h1" className="hero__title">
-            {/* Verwenden Sie den Titel aus der JSON-Datei basierend auf der ausgewählten Sprache */}
             <h1>
               {indexText.hero.title1[language]}
-              <u>MIRIAM STERL</u>
+
+              <u style={{ whiteSpace: 'nowrap' }}>MIRIAM STERL</u>
               {indexText.hero.title2[language]}
             </h1>
           </Heading>
 
-          {/* Verwenden Sie den Untertitel aus der JSON-Datei basierend auf der ausgewählten Sprache */}
           <p className="hero__subtitle">{indexText.hero.subtitle[language]}</p>
         </div>
         <div className="hero__image">
@@ -51,31 +54,60 @@ export default function Home() {
   };
 
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
-    >
+    <Layout title={`${siteConfig.title}`} description={`${siteConfig.tagline}`}>
       <HomepageHeader language={language} toggleLanguage={toggleLanguage} />
       <main>
         <div className="home__container">
           <div className="home__smallboxesContainer">
             <div className="home__boxitem small">
-              <h1>{indexText.boxitem1.title[language]}</h1>
+              <h2>{indexText.boxitem1.title[language]}</h2>
+              <img className="home__boximage small" src={boximage1} alt="" />
               <p>{indexText.boxitem1.text[language]}</p>
+              <Link to={indexText.boxitem1.link}>
+                <button>
+                  <h3>{indexText.boxitem1.button[language]}</h3>
+                </button>
+              </Link>
             </div>
 
             <div className="home__boxitem small">
-              <h1>{indexText.boxitem2.title[language]}</h1>
+              <h2>{indexText.boxitem2.title[language]}</h2>
+              <img className="home__boximage small" src={boximage2} alt="" />
               <p>{indexText.boxitem2.text[language]}</p>
+              <Link to={indexText.boxitem2.link}>
+                <button>
+                  <h3>{indexText.boxitem2.button[language]}</h3>
+                </button>
+              </Link>
             </div>
           </div>
 
           <div className="home__boxitem fullwidth">
-            <h1>{indexText.boxitem3.title[language]}</h1>
-            <p>{indexText.boxitem3.text[language]}</p>
+            <div className="fullwidth__title">
+              <h2>{indexText.boxitem3.title[language]}</h2>
+            </div>
+            <div className="fullwidth__image">
+              <img
+                className="home__boximage fulliwdth"
+                src={boximage3}
+                alt=""
+              />
+            </div>
+            <div className="fullwidth__textAndButton">
+              <p>{indexText.boxitem3.text[language]}</p>
+
+              <Link to={indexText.boxitem3.link}>
+                <button>
+                  <h3>{indexText.boxitem3.button[language]}</h3>
+                </button>
+              </Link>
+            </div>
           </div>
 
           <div className="home__latestBlogPosts">
+            <h2 className="home__latestBlogPosts__title">
+              {indexText.blogpostbox.title[language]}
+            </h2>
             {blogPosts.map((post, index) => (
               <div className="" key={index}>
                 <p>
@@ -92,9 +124,26 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="home__boxitem fullwidth">
-            <h1>{indexText.boxitem4.title[language]}</h1>
-            <p>{indexText.boxitem4.text[language]}</p>
+          <div className="home__boxitem fullwidth right">
+            <div className="fullwidth__title">
+              <h2>{indexText.boxitem4.title[language]}</h2>
+            </div>
+            <div className="fullwidth__image">
+              <img
+                className="home__boximage fulliwdth"
+                src={boximage4}
+                alt=""
+              />
+            </div>
+            <div className="fullwidth__textAndButton">
+              <p>{indexText.boxitem4.text[language]}</p>
+
+              <Link to={indexText.boxitem4.link}>
+                <button>
+                  <h3>{indexText.boxitem4.button[language]}</h3>
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </main>

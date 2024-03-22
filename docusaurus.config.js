@@ -8,8 +8,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Hi. I’m MIRIAM STERL, Oceaongrapher.',
-  tagline: 'Here is even some more text. And another cool sentence. Amazing.',
+  title: 'MIRIAM STERL, Oceaongrapher.',
+  tagline: 'MIRIAM STERL, Oceaongrapher.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -31,7 +31,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'nl'],
   },
 
   presets: [
@@ -55,9 +55,9 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           feedOptions: {
             type: 'rss', // 'all', 'none', or 'rss'
-            title: 'Ihr Blog-Titel',
-            description: 'Beschreibung Ihres Blogs',
-            language: 'de',
+            title: 'Miriam Sterl - News Blog',
+            description: 'recent updates from Miriam Sterl',
+            language: 'en',
           },
         },
       }),
@@ -76,15 +76,18 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          { to: '/about', label: 'About Me', position: 'left' },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Talks & Publications',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/markdown-page', label: 'Markdown-Page', position: 'left' },
-          { to: '/page2', label: 'Page 2', position: 'left' },
+
+          { to: '/work', label: 'Work', position: 'left' },
+          { to: '/cv', label: 'CV', position: 'left' },
+          { to: '/contact', label: 'Contact', position: 'left' },
         ],
       },
 
@@ -92,7 +95,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: ' ',
             items: [
               {
                 label: 'Tutorial',
@@ -101,24 +104,7 @@ const config = {
             ],
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
+            title: ' ',
             items: [
               {
                 label: 'Blog',
@@ -127,6 +113,19 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/MiriamSterl',
+              },
+            ],
+          },
+          {
+            title: ' ',
+            items: [
+              {
+                label: 'Contact',
+                to: '/contact',
+              },
+              {
+                label: 'Imprint',
+                to: '/imprint',
               },
             ],
           },

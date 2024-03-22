@@ -22,6 +22,12 @@ body {
   height: 100vh;
 }
 
+img {
+  display: block; // Global block style for the img tag, to remove the space below the image
+  width: 100%; // globale width 100% for all images. better to set the image-size sperately for each, to avoid wierd behavior. (flex)
+  height: auto; // also for the height
+}
+
 #__docusaurus {
   width: 100%;
 

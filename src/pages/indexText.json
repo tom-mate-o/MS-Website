@@ -22,7 +22,12 @@
     "text": {
       "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum mi nec, ultrices ipsum. Donec sed posuere massa. Sed ut metus vel ligula elementum lacinia. Proin auctor dolor nec eros rutrum.",
       "nl": "De klant is erg belangrijk, de klant wordt door de klant gevolgd. Er is geen pure feugiat, noch mijn vestibule, noch de basketbal zelf. Plaats tot die tijd de massa. Maar als angst- of ligula-element van de rok. De auteur van het artikel is niet de auteur van het boek."
-    }
+    },
+    "button": {
+      "en": "Read More",
+      "nl": "Lees Meer"
+    },
+    "link": "/about"
   },
 
   "boxitem2": {
@@ -33,7 +38,12 @@
     "text": {
       "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum mi nec, ultrices ipsum. Donec sed posuere massa. Sed ut metus vel ligula elementum lacinia. Proin auctor dolor nec eros rutrum.",
       "nl": "De klant is erg belangrijk, de klant wordt door de klant gevolgd. Er is geen pure feugiat, noch mijn vestibule, noch de basketbal zelf. Plaats tot die tijd de massa. Maar als angst- of ligula-element van de rok. De auteur van het artikel is niet de auteur van het boek."
-    }
+    },
+    "button": {
+      "en": "Read More",
+      "nl": "Lees Meer"
+    },
+    "link": "/about"
   },
 
   "boxitem3": {
@@ -44,7 +54,12 @@
     "text": {
       "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum mi nec, ultrices ipsum. Donec sed posuere massa. Sed ut metus vel ligula elementum lacinia. Proin auctor dolor nec eros rutrum.",
       "nl": "De klant is erg belangrijk, de klant wordt door de klant gevolgd. Er is geen pure feugiat, noch mijn vestibule, noch de basketbal zelf. Plaats tot die tijd de massa. Maar als angst- of ligula-element van de rok. De auteur van het artikel is niet de auteur van het boek."
-    }
+    },
+    "button": {
+      "en": "Read More",
+      "nl": "Lees Meer"
+    },
+    "link": "/about"
   },
 
   "boxitem4": {
@@ -55,6 +70,18 @@
     "text": {
       "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum mi nec, ultrices ipsum. Donec sed posuere massa. Sed ut metus vel ligula elementum lacinia. Proin auctor dolor nec eros rutrum.",
       "nl": "De klant is erg belangrijk, de klant wordt door de klant gevolgd. Er is geen pure feugiat, noch mijn vestibule, noch de basketbal zelf. Plaats tot die tijd de massa. Maar als angst- of ligula-element van de rok. De auteur van het artikel is niet de auteur van het boek."
+    },
+    "button": {
+      "en": "Read More",
+      "nl": "Lees Meer"
+    },
+    "link": "/about"
+  },
+
+  "blogpostbox": {
+    "title": {
+      "en": "Recent News",
+      "nl": "Recent Niuews"
     }
   }
 }

@@ -4,54 +4,89 @@
   background-image: url('../images/hero_bg.jpg');
   background-size: cover;
   margin-block: u.rem(40);
-  border-radius: 30px;
+  border-radius: 15px;
   box-shadow: var(--boxitem-shadow);
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: u.rem(25) !important;
+
+  h1 {
+    line-height: 1.5;
+  }
+
+  p {
+    font-weight: 300;
+    margin-block-start: u.rem(20);
+    font-size: u.rem(20);
+    font-size: clamp(u.rem(20), 0.99rem + 1.13vw, u.rem(32));
+    line-height: 1.5;
+
+    @include u.breakpoint('medium') {
+      line-height: 1.25;
+    }
+  }
 
   &::before {
     content: '';
-    background-color: rgba(21, 52, 126, 0.55);
+    background-color: rgba(31, 76, 181, 0.55);
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    border-radius: 30px;
+    border-radius: 15px;
     z-index: 1;
   }
 
   &__container {
     color: white;
     z-index: 2;
-
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
 
-    @include u.breakpoint('medium') {
-      grid-template-columns: 1fr 1fr;
+    @include u.breakpoint('large') {
+      grid-template-columns: 6fr 4fr;
       grid-template-rows: auto;
+      padding: 20px;
+    }
+
+    @include u.breakpoint('medium') {
+      padding: 10px;
     }
 
     .hero__text {
       grid-column: 1 / 2;
       grid-row: 2 / 3;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
 
       @include u.breakpoint('medium') {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
+        text-align: left;
       }
     }
 
     .hero__image {
       grid-column: 1 / 2;
       grid-row: 1 / 2;
+      margin-block-end: u.rem(15);
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       @include u.breakpoint('medium') {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
+        margin-block-end: u.rem(0);
+        padding-left: u.rem(20);
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
       }
     }
   }
@@ -60,19 +95,18 @@
     text-decoration: none;
     border-bottom: 5px solid;
     border-image-slice: 1;
-    border-image-source: linear-gradient(
-      to right,
-      #430a15 20%,
-      #ac2b24 30%,
-      #ffffff 50%,
-      #1f4cb5 70%,
-      #1a204b 80%
-    );
+    border-image-source: var(--color-bar);
   }
 
   &__avatar {
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    width: clamp(
+      12.5rem,
+      9.57306338028169rem + 12.488262910798122vw,
+      20.8125rem
+    );
+    min-width: 200px;
+    aspect-ratio: 1 / 1;
     border-radius: 50%;
     filter: grayscale(100%);
   }

@@ -3,7 +3,7 @@
 .navbar {
   background-color: var(--navbar-bg-color);
   height: 84px;
-  border-radius: 0 0 30px 30px;
+  border-radius: 0 0 15px 15px;
   box-shadow: var(--boxitem-shadow);
 
   &__items {
@@ -26,8 +26,22 @@
     }
   }
 
+  &__brand {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+  }
+
   &__title {
-    display: none;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    text-decoration: none;
+    background-image: var(--color-bar);
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+    background-position: 0 100%;
   }
 
   &__logo {
@@ -70,6 +84,15 @@
 
   &__item {
     text-transform: uppercase;
+  }
+
+  &__link {
+    &:hover {
+      background-image: var(--color-bar);
+      background-repeat: no-repeat;
+      background-size: 100% 3px;
+      background-position: 0 100%;
+    }
   }
 
   // &__items--right {
