@@ -9,10 +9,10 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import herobg from '../images/hero_bg.jpg';
 import miriam from '../images/miriam.jpg';
-import boximage1 from '../images/boximages/boximage1.jpg';
-import boximage2 from '../images/boximages/boximage2.jpg';
-import boximage3 from '../images/boximages/boximage3.jpg';
-import boximage4 from '../images/boximages/boximage4.jpg';
+import boximage1 from '../images/boximages/boximage1.JPG';
+import boximage2 from '../images/boximages/boximage2.JPG';
+import boximage3 from '../images/boximages/boximage3.JPG';
+import boximage4 from '../images/boximages/boximage4.JPG';
 
 import React, { useState } from 'react';
 
