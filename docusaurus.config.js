@@ -98,8 +98,8 @@ const config = {
             title: ' ',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Talks & Publications',
+                to: '/docs',
               },
             ],
           },
