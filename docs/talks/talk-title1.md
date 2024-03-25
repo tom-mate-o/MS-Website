@@ -21,5 +21,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum 
 
 ## Presentation - Slides
 
-| <a href="/downloads/talk1slides.pdf" download>📎 Download the Slides</a> |
-| ------------------------------------------------------------------------ |
+| <a href="./downloads/talk1slides.pdf" download>📎 Download the Slides</a> |
+| ------------------------------------------------------------------------- |
