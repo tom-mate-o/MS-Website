@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Talk 1
@@ -21,5 +21,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum 
 
 ## Presentation - Slides
 
-| <a href="./downloads/talk1slides.pdf" download>📎 Download the Slides</a> |
-| ------------------------------------------------------------------------- |
+| [Download Slides](./downloads/talk1slides.pdf) |
+| ---------------------------------------------- |

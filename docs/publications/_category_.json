@@ -1,0 +1,8 @@
+{
+  "label": "Publications",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Here is an archive of all my recent publications."
+  }
+}

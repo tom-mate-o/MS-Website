@@ -1,7 +1,14 @@
 @use '../util/' as u;
 
+section.row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
 .col--6 {
   --ifm-col-width: 100%;
+  margin-bottom: 0 !important;
 }
 
 h2.text--truncate {
