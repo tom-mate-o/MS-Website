@@ -108,20 +108,50 @@ export default function Home() {
             <h2 className="home__latestBlogPosts__title">
               {indexText.blogpostbox.title[language]}
             </h2>
-            {blogPosts.map((post, index) => (
-              <div className="" key={index}>
-                <p>
-                  {new Date(post.pubDate).toLocaleDateString('en', {
-                    year: 'numeric',
-                    month: 'short',
-                    day: 'numeric',
-                  })}
-                </p>
-                <h2>{post.title[0]}</h2>
+            <div className="home__latestBlogPosts__recentcontainer">
+              {blogPosts.map((post, index) => (
+                <div
+                  className="home__latestBlogPosts__postcontainer"
+                  key={index}
+                >
+                  <div className="home__latestBlogPosts__icon">
+                    <Link to={post.link[0]} target="_self">
+                      <svg
+                        data-slot="icon"
+                        aria-hidden="true"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M4.125 3C3.089 3 2.25 3.84 2.25 4.875V18a3 3 0 0 0 3 3h15a3 3 0 0 1-3-3V4.875C17.25 3.839 16.41 3 15.375 3H4.125ZM12 9.75a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5H12Zm-.75-2.25a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5H12a.75.75 0 0 1-.75-.75ZM6 12.75a.75.75 0 0 0 0 1.5h7.5a.75.75 0 0 0 0-1.5H6Zm-.75 3.75a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5H6a.75.75 0 0 1-.75-.75ZM6 6.75a.75.75 0 0 0-.75.75v3c0 .414.336.75.75.75h3a.75.75 0 0 0 .75-.75v-3A.75.75 0 0 0 9 6.75H6Z"
+                          fill-rule="evenodd"
+                        ></path>
+                        <path d="M18.75 6.75h1.875c.621 0 1.125.504 1.125 1.125V18a1.5 1.5 0 0 1-3 0V6.75Z"></path>
+                      </svg>
+                    </Link>
+                  </div>
+                  <p className="home__latestBlogPosts__date">
+                    {new Date(post.pubDate).toLocaleDateString('en', {
+                      year: 'numeric',
+                      month: 'short',
+                      day: 'numeric',
+                    })}
+                  </p>
+                  <h2 className="home__latestBlogPosts__posttitle">
+                    <Link to={post.link[0]} target="_self">
+                      {' '}
+                      {post.title[0]}
+                    </Link>
+                  </h2>
 
-                <p>{post.description[0]}</p>
-              </div>
-            ))}
+                  <p className="home__latestBlogPosts__description">
+                    {post.description[0]}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
 
           <div className="home__boxitem fullwidth right">
