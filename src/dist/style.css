@@ -546,4 +546,17 @@ footer.footer--dark {
 }
 .navbar-sidebar__brand {
   height: 80px;
+}
+
+.col--6 {
+  --ifm-col-width: 100%;
+}
+
+h2.text--truncate {
+  white-space: wrap;
+}
+
+p.text--truncate {
+  white-space: wrap;
+  margin-block-start: 0.625rem;
 }/*# sourceMappingURL=style.css.map */

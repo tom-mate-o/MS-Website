@@ -1,0 +1,14 @@
+@use '../util/' as u;
+
+.col--6 {
+  --ifm-col-width: 100%;
+}
+
+h2.text--truncate {
+  white-space: wrap;
+}
+
+p.text--truncate {
+  white-space: wrap;
+  margin-block-start: u.rem(10);
+}

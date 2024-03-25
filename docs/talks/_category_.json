@@ -1,0 +1,8 @@
+{
+  "label": "Talks",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Here is an archive of all the talks I've given. Please click on the title to find detailed information, including the slides."
+  }
+}
