@@ -99,7 +99,7 @@ const config = {
             items: [
               {
                 label: 'Talks & Publications',
-                to: '/docs',
+                to: '/docs/intro',
               },
             ],
           },
