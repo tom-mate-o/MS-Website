@@ -18,11 +18,6 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -33,6 +28,7 @@ const config = {
     defaultLocale: 'en',
     locales: ['en', 'nl'],
   },
+  plugins: ['@docusaurus/plugin-sitemap'],
 
   presets: [
     [
@@ -75,6 +71,7 @@ const config = {
           alt: 'Miriam Sterl',
           src: 'img/logo.svg',
         },
+
         items: [
           { to: '/about', label: 'About Me', position: 'left' },
           {
@@ -111,6 +108,10 @@ const config = {
                 to: '/blog',
               },
               {
+                label: 'RSS-Feed',
+                to: 'https://miriamsterl.netlify.app/blog/rss.xml',
+              },
+              {
                 label: 'GitHub',
                 href: 'https://github.com/MiriamSterl',
               },
@@ -130,7 +131,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} Miriam Sterl`,
+        copyright: `© ${new Date().getFullYear()} Miriam Sterl - Made with 💙 by <a href="https://tomkra.dev" target="_blank" style="white-space: nowrap;">Tom Kra</a>`,
       },
       prism: {
         theme: prismThemes.github,

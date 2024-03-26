@@ -538,6 +538,22 @@ footer.footer--dark {
   margin-block-start: 2.5rem;
   border-radius: 15px 15px 0 0;
   box-shadow: var(--boxitem-shadow);
+  padding-block-start: 0px;
+}
+footer .row.footer__links {
+  display: flex;
+  justify-content: center;
+}
+footer .col.footer__col {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.footer__copyright {
+  border-top: 2px solid;
+  border-image-slice: 1;
+  border-image-source: var(--color-bar);
 }
 
 .navbar-sidebar {
