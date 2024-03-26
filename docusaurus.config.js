@@ -28,7 +28,6 @@ const config = {
     defaultLocale: 'en',
     locales: ['en', 'nl'],
   },
-  plugins: ['@docusaurus/plugin-sitemap'],
 
   presets: [
     [

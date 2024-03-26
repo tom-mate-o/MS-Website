@@ -1,123 +1,50 @@
 export const blogPosts = [
   {
     "title": [
-      "Miriam Post"
+      "New Post with an Image"
     ],
     "link": [
-      "https://miriamsterl.netlify.app/blog/miriam-post"
+      "https://miriamsterl.netlify.app/blog/new-post-with-image"
     ],
     "guid": [
-      "https://miriamsterl.netlify.app/blog/miriam-post"
+      "https://miriamsterl.netlify.app/blog/new-post-with-image"
     ],
     "pubDate": [
-      "Wed, 20 Mar 2024 00:00:00 GMT"
+      "Mon, 25 Mar 2024 00:00:00 GMT"
     ],
     "description": [
-      "hier ein kurzes update"
+      "Amazing"
     ],
     "content:encoded": [
-      "<p>#Großer Titel\nhier ein kurzes update</p>"
+      "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"amazing\">Amazing<a href=\"https://miriamsterl.netlify.app/blog/new-post-with-image#amazing\" class=\"hash-link\" aria-label=\"Direct link to Amazing\" title=\"Direct link to Amazing\">​</a></h2>\n<p><img decoding=\"async\" loading=\"lazy\" alt=\"Picture of Mia\" src=\"https://miriamsterl.netlify.app/assets/images/mia-c365fc4e0749e30e5fadda60230bda60.jpg\" width=\"319\" height=\"315\" class=\"img_ev3q\"></p>\n<p>here is even a picture.\nIt's so easy. Just place it in the folder from the post (where this file is) and link it</p>"
     ],
     "category": [
-      "hola",
-      "docusaurus"
+      "ocean",
+      "science"
     ]
   },
   {
     "title": [
-      "RSS TIMEOUT"
+      "Blogpost Test"
     ],
     "link": [
-      "https://miriamsterl.netlify.app/blog/rss-timeout"
+      "https://miriamsterl.netlify.app/blog/blogpost-test"
     ],
     "guid": [
-      "https://miriamsterl.netlify.app/blog/rss-timeout"
+      "https://miriamsterl.netlify.app/blog/blogpost-test"
     ],
     "pubDate": [
-      "Mon, 18 Mar 2024 00:00:00 GMT"
+      "Tue, 20 Feb 2024 00:00:00 GMT"
     ],
     "description": [
-      "RSS TESTING."
+      "let's try if the blog is working correctly."
     ],
     "content:encoded": [
-      "<p>RSS TESTING.</p>"
+      "<p>let's try if the blog is working correctly.\nFingers crossed</p>\n<p><img decoding=\"async\" loading=\"lazy\" alt=\"alt-text\" src=\"https://miriamsterl.netlify.app/assets/images/pigeon404-95b9f388af29dbea250af3837f2c26ec.jpg\" width=\"1024\" height=\"1024\" class=\"img_ev3q\"></p>"
     ],
     "category": [
-      "test",
-      "rss"
-    ]
-  },
-  {
-    "title": [
-      "New Post Update Test"
-    ],
-    "link": [
-      "https://miriamsterl.netlify.app/blog/new-post"
-    ],
-    "guid": [
-      "https://miriamsterl.netlify.app/blog/new-post"
-    ],
-    "pubDate": [
-      "Mon, 18 Mar 2024 00:00:00 GMT"
-    ],
-    "description": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-    ],
-    "content:encoded": [
-      "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>"
-    ],
-    "category": [
-      "hola",
-      "docusaurus"
-    ]
-  },
-  {
-    "title": [
-      "Welcome"
-    ],
-    "link": [
-      "https://miriamsterl.netlify.app/blog/welcome"
-    ],
-    "guid": [
-      "https://miriamsterl.netlify.app/blog/welcome"
-    ],
-    "pubDate": [
-      "Thu, 26 Aug 2021 00:00:00 GMT"
-    ],
-    "description": [
-      "Docusaurus blogging features are powered by the blog plugin."
-    ],
-    "content:encoded": [
-      "<p><a href=\"https://docusaurus.io/docs/blog\" target=\"_blank\" rel=\"noopener noreferrer\">Docusaurus blogging features</a> are powered by the <a href=\"https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog\" target=\"_blank\" rel=\"noopener noreferrer\">blog plugin</a>.</p>\n<p>Test ob es neu deployed Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>\n<p>Regular blog authors can be added to <code>authors.yml</code>.</p>\n<p>The blog post date can be extracted from filenames, such as:</p>\n<ul>\n<li><code>2019-05-30-welcome.md</code></li>\n<li><code>2019-05-30-welcome/index.md</code></li>\n</ul>\n<p>A blog post folder can be convenient to co-locate blog post images:</p>\n<p><img decoding=\"async\" loading=\"lazy\" alt=\"Docusaurus Plushie\" src=\"https://miriamsterl.netlify.app/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg\" width=\"1500\" height=\"500\" class=\"img_ev3q\"></p>\n<p>The blog supports tags as well!</p>\n<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>"
-    ],
-    "category": [
-      "facebook",
-      "hello",
-      "docusaurus"
-    ]
-  },
-  {
-    "title": [
-      "First Blog Post"
-    ],
-    "link": [
-      "https://miriamsterl.netlify.app/blog/first-blog-post"
-    ],
-    "guid": [
-      "https://miriamsterl.netlify.app/blog/first-blog-post"
-    ],
-    "pubDate": [
-      "Tue, 28 May 2019 00:00:00 GMT"
-    ],
-    "description": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-    ],
-    "content:encoded": [
-      "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>"
-    ],
-    "category": [
-      "hola",
-      "docusaurus"
+      "ocean",
+      "science"
     ]
   }
 ];
