@@ -8,5 +8,3 @@ date: 2024-02-20
 
 let's try if the blog is working correctly.
 Fingers crossed
-
-![alt-text](./pigeon404.jpg)
