@@ -1,12 +1,9 @@
 ---
-slug: blogpost-test
-title: Blogpost Test
+slug: stay-tuned
+title: Coming Soon
 authors: [miriam]
 tags: [ocean, science]
-date: 2024-02-20
+date: 2024-05-30
 ---
 
-let's try if the blog is working correctly.
-Fingers crossed
-
-![alt-text](./pigeon404.jpg)
+stay tuned...
