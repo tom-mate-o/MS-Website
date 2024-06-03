@@ -8,8 +8,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'MIRIAM STERL, Oceaongrapher.',
-  tagline: 'MIRIAM STERL, Oceaongrapher.',
+  title: 'Miriam Sterl, Oceanographer',
+  tagline: 'Miriam Sterl, Oceanographer',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
