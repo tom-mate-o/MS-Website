@@ -32,18 +32,18 @@
 
   "boxitem2": {
     "title": {
-      "en": "Work",
-      "nl": "Werk"
+      "en": "Publications",
+      "nl": "Publicaties"
     },
     "text": {
       "en": "Scientific publications and material intended for a broader audience (in Dutch).",
-      "nl": "Wetenschappelijke publicaties en materiaal gericht op een breder publiek."
+      "nl": "Wetenschappelijke publicaties én materiaal gericht op een breder publiek."
     },
     "button": {
       "en": "Read More",
       "nl": "Lees Meer"
     },
-    "link": "/about"
+    "link": "/publications"
   },
 
   "boxitem3": {
