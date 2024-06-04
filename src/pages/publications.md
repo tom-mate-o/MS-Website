@@ -22,7 +22,7 @@ In [de podcast Atomen Enzo](https://open.spotify.com/episode/5YXl87AcZRDeP7izwNG
 &nbsp;
 &nbsp;
 
-In [dit artikel](https://www.ntvn.nl/media/files/Eerste_prijs_2024_def.pdf) in het Nederlands Tijdschrift voor Natuurkunde leg ik mijn onderzoeksbevindingen uit aan een breed natuurkundig publiek.
+In [het Nederlands Tijdschrift voor Natuurkunde](https://www.ntvn.nl/media/files/Eerste_prijs_2024_def.pdf) leg ik mijn onderzoeksbevindingen uit aan een breed natuurkundig publiek.
 
 &nbsp;
 &nbsp;

@@ -18,9 +18,9 @@ Voor mogelijkheden voor gastlessen, neem gerust [contact](contact) met me op!
 &nbsp;
 &nbsp;
 
-![gastles](./images/gastles.jpeg)
-
-&nbsp;
-&nbsp;
-
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/0KwDSIabhew?si=Ri5WVBxfk8qVb_aR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+&nbsp;
+&nbsp;
+
+![gastles](./images/gastles.jpeg)
