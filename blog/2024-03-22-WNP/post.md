@@ -1,6 +1,6 @@
 ---
 slug: WNP
-title: WomenNetPhysics conference
+title: WomenNetPhysics
 authors: [miriam]
 tags: [physics, science, diversity, conference]
 date: 2024-03-22
