@@ -16,8 +16,8 @@
 
   "boxitem1": {
     "title": {
-      "en": "Boxtitle One",
-      "nl": "Boxtitel Een"
+      "en": "About me",
+      "nl": "Over mij"
     },
     "text": {
       "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum mi nec, ultrices ipsum. Donec sed posuere massa. Sed ut metus vel ligula elementum lacinia. Proin auctor dolor nec eros rutrum.",
