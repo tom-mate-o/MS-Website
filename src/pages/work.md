@@ -18,4 +18,4 @@ Voor mogelijkheden voor gastlessen, neem gerust contact met me op!
 &nbsp;
 &nbsp;
 
-![gastles](./images/gastles.jpeg)
+![gastles](./gastles.jpeg)
