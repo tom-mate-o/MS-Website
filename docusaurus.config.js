@@ -79,6 +79,7 @@ const config = {
             position: 'left',
             label: 'Talks & Publications',
           },
+          { to: '/publications', label: 'Publications', position: 'left' },
           { to: '/work', label: 'Work', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/cv', label: 'CV', position: 'left' },
