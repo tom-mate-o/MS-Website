@@ -2,7 +2,7 @@
 title: Privacy statement
 ---
 
-# Privacy statement (EN)
+## Privacy statement
 
 This website (www.miriamsterl.com) is hosted on the server of an external provider (Strato). When you visit this website, log data (e.g., IP address, browser used) is collected, as described in Strato's privacy policy.
 
@@ -12,8 +12,11 @@ If you contact me (Miriam Sterl), the personal data you provide will be treated 
 
 If you have any questions or comments regarding this privacy statement, you can contact me via info(at)miriamsterl(dot)com.
 
+&nbsp;
+&nbsp;
 
-# Privacyverklaring (NL)
+
+## Privacyverklaring
 
 Deze website (www.miriamsterl.com) wordt gehost op de server van een externe aanbieder (Strato). Als u deze website bezoekt, worden loggegevens (bijv. IP-adres, gebruikte browser) verzameld, zoals beschreven in het privacybeleid van Strato.
 
