@@ -15,6 +15,7 @@ Ik geef regelmatig praatjes of gastlessen voor middelbare scholieren over fysisc
 
 Voor mogelijkheden voor gastlessen, neem gerust contact met me op!
 
+&nbsp;
+&nbsp;
 
 ![gastles](./gastles.jpeg)
-*Demonstrating exp*

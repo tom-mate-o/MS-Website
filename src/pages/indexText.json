@@ -20,8 +20,8 @@
       "nl": "Over mij"
     },
     "text": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum mi nec, ultrices ipsum. Donec sed posuere massa. Sed ut metus vel ligula elementum lacinia. Proin auctor dolor nec eros rutrum.",
-      "nl": "De klant is erg belangrijk, de klant wordt door de klant gevolgd. Er is geen pure feugiat, noch mijn vestibule, noch de basketbal zelf. Plaats tot die tijd de massa. Maar als angst- of ligula-element van de rok. De auteur van het artikel is niet de auteur van het boek."
+      "en": "My background, (research) interests, and CV.",
+      "nl": "Mijn achtergrond, (academische) interesses en CV."
     },
     "button": {
       "en": "Read More",
@@ -32,12 +32,12 @@
 
   "boxitem2": {
     "title": {
-      "en": "Boxtitle Two",
-      "nl": "Boxtitel Twee"
+      "en": "Work",
+      "nl": "Werk"
     },
     "text": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum mi nec, ultrices ipsum. Donec sed posuere massa. Sed ut metus vel ligula elementum lacinia. Proin auctor dolor nec eros rutrum.",
-      "nl": "De klant is erg belangrijk, de klant wordt door de klant gevolgd. Er is geen pure feugiat, noch mijn vestibule, noch de basketbal zelf. Plaats tot die tijd de massa. Maar als angst- of ligula-element van de rok. De auteur van het artikel is niet de auteur van het boek."
+      "en": "Scientific publications and material intended for a broader audience (in Dutch).",
+      "nl": "Wetenschappelijke publicaties en materiaal gericht op een breder publiek."
     },
     "button": {
       "en": "Read More",
@@ -48,18 +48,18 @@
 
   "boxitem3": {
     "title": {
-      "en": "Boxtitle Three",
-      "nl": "Boxtitel Drie"
+      "en": "Outreach",
+      "nl": "Outreach"
     },
     "text": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum mi nec, ultrices ipsum. Donec sed posuere massa. Sed ut metus vel ligula elementum lacinia. Proin auctor dolor nec eros rutrum.",
-      "nl": "De klant is erg belangrijk, de klant wordt door de klant gevolgd. Er is geen pure feugiat, noch mijn vestibule, noch de basketbal zelf. Plaats tot die tijd de massa. Maar als angst- of ligula-element van de rok. De auteur van het artikel is niet de auteur van het boek."
+      "en": "I regularly give guest lectures for high school students, including live demonstrations and exciting cruise stories.",
+      "nl": "Ik geef regelmatig gastlessen voor scholieren, inclusief demonstratiepracticum en spannende verhalen over onderzoek op een schip."
     },
     "button": {
       "en": "Read More",
       "nl": "Lees Meer"
     },
-    "link": "/about"
+    "link": "/work"
   },
 
   "boxitem4": {
