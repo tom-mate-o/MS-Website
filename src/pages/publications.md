@@ -2,7 +2,7 @@
 title: Publications
 ---
 
-## For a wider audience 🇬🇧
+## For a wider audience (in NL) 🇬🇧
 
 ## Voor een breder publiek 🇳🇱
 
@@ -27,12 +27,15 @@ In [dit artikel](https://www.ntvn.nl/media/files/Eerste_prijs_2024_def.pdf) in h
 &nbsp;
 &nbsp;
 
-# Scientific publications
+## Scientific publications 🇬🇧
+
+## Wetenschappelijke publicaties 🇳🇱
+
 
 &nbsp;
 &nbsp;
 
-## 2024
+### 2024
 
 [Suppression of mesoscale eddy mixing by topographic PV gradients](https://journals.ametsoc.org/view/journals/phoc/54/5/JPO-D-23-0142.1.xml)
 
@@ -41,7 +44,7 @@ In [dit artikel](https://www.ntvn.nl/media/files/Eerste_prijs_2024_def.pdf) in h
 &nbsp;
 &nbsp;
 
-## 2022
+### 2022
 
 [Restratification structure and processes in the Irminger Sea](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022JC019126)
 
@@ -50,7 +53,7 @@ In [dit artikel](https://www.ntvn.nl/media/files/Eerste_prijs_2024_def.pdf) in h
 &nbsp;
 &nbsp;
 
-## 2020
+### 2020
 
 [Influence of barotropic tidal currents on transport and accumulation of floating microplastics in the global open ocean](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JC015583)
 
