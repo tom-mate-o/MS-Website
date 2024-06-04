@@ -124,8 +124,8 @@ const config = {
                 to: '/contact',
               },
               {
-                label: 'Imprint',
-                to: '/imprint',
+                label: 'Privacy',
+                to: '/privacy',
               },
             ],
           },
