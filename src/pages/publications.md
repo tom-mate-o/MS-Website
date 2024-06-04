@@ -6,6 +6,8 @@ title: Publications
 
 In [de podcast Atomen Enzo](https://open.spotify.com/episode/5YXl87AcZRDeP7izwNGpjT?si=aa84291faa184f2a) vertel ik over mijn onderzoek op een toegankelijke manier. Geen voorkennis vereist!
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5YXl87AcZRDeP7izwNGpjT?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 In [dit artikel](https://www.ntvn.nl/media/files/Eerste_prijs_2024_def.pdf) in het Nederlands Tijdschrift voor Natuurkunde leg ik mijn onderzoeksbevindingen uit aan een breed natuurkundig publiek.
 
 ## Scientific publications
