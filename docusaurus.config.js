@@ -73,16 +73,16 @@ const config = {
 
         items: [
           { to: '/about', label: 'About Me', position: 'left' },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Talks & Publications',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Talks & Publications',
+          // },
           { to: '/publications', label: 'Publications', position: 'left' },
-          { to: '/work', label: 'Work', position: 'left' },
+          { to: '/outreach', label: 'Outreach', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/cv', label: 'CV', position: 'left' },
+          // { to: '/cv', label: 'CV', position: 'left' },
           { to: '/contact', label: 'Contact', position: 'left' },
         ],
       },
@@ -94,8 +94,16 @@ const config = {
             title: ' ',
             items: [
               {
-                label: 'Talks & Publications',
-                to: '/docs/intro',
+                label: 'About Me',
+                to: '/about',
+              },
+              {
+                label: 'Publications',
+                to: '/publications',
+              },
+              {
+                label: 'Outreach',
+                to: '/outreach',
               },
             ],
           },
