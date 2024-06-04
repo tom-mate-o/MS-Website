@@ -2,7 +2,9 @@
 title: Publications
 ---
 
-## For a wider audience / Voor een breder publiek (NL)
+## For a wider audience 🇬🇧
+
+## Voor een breder publiek 🇳🇱
 
 In [de podcast Atomen Enzo](https://open.spotify.com/episode/5YXl87AcZRDeP7izwNGpjT?si=aa84291faa184f2a) vertel ik over mijn onderzoek op een toegankelijke manier. Geen voorkennis vereist!
 

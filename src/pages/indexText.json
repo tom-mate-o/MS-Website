@@ -64,18 +64,18 @@
 
   "boxitem4": {
     "title": {
-      "en": "Boxtitle Four",
-      "nl": "Boxtitel Veer"
+      "en": "Contact",
+      "nl": "Contact"
     },
     "text": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum mi nec, ultrices ipsum. Donec sed posuere massa. Sed ut metus vel ligula elementum lacinia. Proin auctor dolor nec eros rutrum.",
-      "nl": "De klant is erg belangrijk, de klant wordt door de klant gevolgd. Er is geen pure feugiat, noch mijn vestibule, noch de basketbal zelf. Plaats tot die tijd de massa. Maar als angst- of ligula-element van de rok. De auteur van het artikel is niet de auteur van het boek."
+      "en": "Do you have any questions? I'm happy to hear from you. Here are all the ways you can reach me.",
+      "nl": "Heb je vragen? Ik hoor graag van je. Hier zijn alle manieren waarop je me kunt bereiken."
     },
     "button": {
       "en": "Read More",
       "nl": "Lees Meer"
     },
-    "link": "/about"
+    "link": "/contact"
   },
 
   "blogpostbox": {
