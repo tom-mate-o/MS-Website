@@ -70,7 +70,18 @@ const config = {
           alt: 'Miriam Sterl',
           src: 'img/logo.svg',
         },
-
+        metadatas: [
+          {
+            name: 'description',
+            content:
+              "My Name is Miriam Sterl. I'm a PhD student working at the Royal Netherlands Institute for Sea Research (NIOZ) and the Institute for Marine and Atmospheric research Utrecht (IMAU), supervised by Sjoerd Groeskamp and Michiel Baatsen. My research focuses on mesoscale eddies and turbulence and how they are influenced by a sloping seafloor. Before my PhD I completed a bachelor in Physics and Mathematics and a master in Climate Physics at Utrecht University. Apart from doing research, I enjoy outreach activities to teach a broad audience about oceanography, climate change and the experiences of being a researcher. Furthermore I find it very important to contribute to making the world of research as inclusive as possible.",
+          },
+          {
+            name: 'keywords',
+            content:
+              'Miriam Sterl, Oceanographer, Dutch, Netherlands, Oceanography, PhD student, Royal Netherlands Institute for Sea Research, NIOZ, Institute for Marine and Atmospheric research Utrecht, IMAU, mesoscale eddies, turbulence, sloping seafloor, oceanography, climate change, outreach activities, inclusivity in research, Utrecht University, Physics, Mathematics, Climate Physics, researcher experiences',
+          },
+        ],
         items: [
           { to: '/about', label: 'About Me', position: 'left' },
           // {
