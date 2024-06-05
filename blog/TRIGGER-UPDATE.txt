@@ -1,4 +1,4 @@
 Just change anything here, type some XXX oder delte somthing and click on "Commit changes..." to trigger
 an update of the recent-blog entries on the frontpage.
 
-xxxxxxxxxx
+xxxxxxxxxxxx
