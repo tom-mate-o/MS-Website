@@ -239,6 +239,7 @@ a:active {
 }
 .hero h1 {
   line-height: 1.5;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .hero p {
   font-weight: 300;
@@ -246,6 +247,7 @@ a:active {
   font-size: 1.25rem;
   font-size: clamp(1.25rem, 0.99rem + 1.13vw, 2rem);
   line-height: 1.5;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 @media (min-width: 43.75em) {
   .hero p {

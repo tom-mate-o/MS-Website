@@ -13,6 +13,7 @@
 
   h1 {
     line-height: 1.5;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
   p {
@@ -21,6 +22,7 @@
     font-size: u.rem(20);
     font-size: clamp(u.rem(20), 0.99rem + 1.13vw, u.rem(32));
     line-height: 1.5;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
     @include u.breakpoint('medium') {
       line-height: 1.25;

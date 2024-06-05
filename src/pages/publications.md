@@ -31,7 +31,6 @@ In [het Nederlands Tijdschrift voor Natuurkunde](https://www.ntvn.nl/media/files
 
 ## Wetenschappelijke publicaties 🇳🇱
 
-
 &nbsp;
 &nbsp;
 
