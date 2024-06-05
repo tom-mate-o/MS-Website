@@ -147,7 +147,10 @@ export default function Home() {
                   </h2>
 
                   <p className="home__latestBlogPosts__description">
-                    {post.description[0]}
+                    {post.description[0]}{' '}
+                    <Link to={post.link[0]} target="_self">
+                      ...read more!
+                    </Link>
                   </p>
                 </div>
               ))}
