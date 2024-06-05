@@ -4,7 +4,10 @@ title: Conctact
 
 ## Contact
 
-You can e-mail me at miriam.sterl(at)nioz(dot)nl or m.f.sterl(at)uu(dot)nl.
+You can e-mail me at **miriam.sterl(at)nioz(dot)nl** or **m.f.sterl(at)uu(dot)nl**.
+
+&nbsp;
+&nbsp;
 
 Other places where you can find me:
 
