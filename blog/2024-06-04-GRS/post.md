@@ -1,10 +1,9 @@
 ---
-slug: GRS
-title: GRS Ocean Mixing, almost time!
+slug: Oslo
+title: Research visit to Oslo
 authors: [miriam]
-tags: [ocean, science, mixing, conference]
-date: 2024-06-04
+tags: [oslo, travel, science]
+date: 2025-01-20
 ---
 
-This weekend I'll be travelling to the US to attend the Gordon Research [Seminar](https://www.grc.org/ocean-mixing-grs-conference/2024/) and [Conference](https://www.grc.org/ocean-mixing-conference/2024/) on Ocean Mixing. <!--truncate-->
-Myself and [Josué Martínez Moreno](https://josuemtzmo.github.io/about.html?lang=en) are the chairs of the seminar, which is organised by and for early career researchers. For many months we've worked hard to put together an exciting programme, and I'm really looking forward to the seminar and conference finally happening!
+From today onwards I'll be in Oslo for 4 weeks, visiting the University of Oslo for a research stay. I've already visited this particular group at MetOs 3 times before, so it's lovely to see familiar faces again. I hope it'll be a productive and fun visit!
