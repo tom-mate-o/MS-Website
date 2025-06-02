@@ -36,7 +36,7 @@ In [het Nederlands Tijdschrift voor Natuurkunde](https://www.ntvn.nl/media/files
 
 ### 2025
 
-[The joint effects of planetary $\beta$, topography and friction on baroclinic instability in a two-layer quasi-geostrophic model](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/joint-effects-of-planetary-boldsymbolbeta-topography-and-friction-on-baroclinic-instability-in-a-twolayer-quasigeostrophic-model/C9152401E7FD3736FBA923C0360C88C0)
+[The joint effects of planetary beta, topography and friction on baroclinic instability in a two-layer quasi-geostrophic model](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/joint-effects-of-planetary-boldsymbolbeta-topography-and-friction-on-baroclinic-instability-in-a-twolayer-quasigeostrophic-model/C9152401E7FD3736FBA923C0360C88C0)
 
 **Miriam F. Sterl,** André Palóczy, Sjoerd Groeskamp, Michiel L. J. Baatsen, Joseph H. LaCasce, \& Pål Erik Isachsen (2025). _Journal of Fluid Mechanics._
 
